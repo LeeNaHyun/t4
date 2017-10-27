@@ -1,0 +1,21 @@
+@import 'utils';
+
+.options {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  @include material-shadow(1, 0.5);
+  .show-pinned {
+
+  }
+  .selector {
+    margin-left: auto;
+  }
+  .reverser {
+    margin-top: -2px;
+    margin-left: 0.5rem;
+  }
+}
